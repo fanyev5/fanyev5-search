@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="search-api"
+  id="myeclipse.1397790806972"
+  context-root="/search-api"
+  j2ee-spec="1.7"
+  archive="search-api.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

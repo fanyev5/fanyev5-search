@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.com.fanyev5.search</groupId>
+    <artifactId>modules-search</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <env>develop</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>production</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <env>production</env>
+            </properties>
+        </profile>
+    </profiles>
+
+    <modules>
+        <module>../search-config-develop</module>
+        <module>../search-config-production</module>
+        <module>../search-service</module>
+        <module>../search-api</module>
+    </modules>
+
+</project>
