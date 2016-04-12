@@ -9,9 +9,6 @@
         <dependent-module archiveName="search-service-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/search-service/search-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="base-commons-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/base-commons/base-commons">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="base-service-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/base-service/base-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
